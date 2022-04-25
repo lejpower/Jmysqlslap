@@ -3,3 +3,9 @@ SELECT employees.* FROM employees LEFT JOIN dept_emp ON ( dept_emp.emp_no = empl
 SELECT emp_no, first_name, last_name, gender FROM employees ORDER BY last_name ASC LIMIT 10;
 
 SELECT COUNT(emp_no) FROM employees WHERE last_name = 'Aamodt';
+
+SELECT * FROM employees ; 
+
+SELECT * FROM salarys ; 
+
+
