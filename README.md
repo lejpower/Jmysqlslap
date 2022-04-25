@@ -14,5 +14,5 @@ tar -zxvf employees.tar.gz
 ```
 export CONCURRENCY=XXX
 export ITERATIONS=XXX
-mysqlslap --concurrency=${CONCURRENCY} --iterations=${ITERATIONS} --create-schema=employees --query="./employees.sql" --verbose --delimiter=";"
+mysqlslap --concurrency=${CONCURRENCY} --iterations=${ITERATIONS} --create-schema=employees --query="./test_query.sql" --verbose --delimiter=";"
 ```
