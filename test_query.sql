@@ -4,8 +4,8 @@ SELECT emp_no, first_name, last_name, gender FROM employees ORDER BY last_name A
 
 SELECT COUNT(emp_no) FROM employees WHERE last_name = 'Aamodt';
 
-SELECT * FROM employees ; 
+SELECT * FROM employees ;
 
-SELECT * FROM salarys ; 
+SELECT * FROM salarys ;
 
-
+SELECT * FROM salaries ORDER BY Rand() LIMIT 10;
